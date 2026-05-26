@@ -1,0 +1,22 @@
+# Xcode
+# ========================
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace
+*.xcworkspace/*
+!*.xcworkspace/contents.xcworkspace
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+# Swift Package Manager (SPM)
+# ========================
+.build/
+.swiftpm/
+
+# macOS固有のファイル
+# ========================
+.DS_Store
